@@ -1960,19 +1960,19 @@ MonoBehaviour:
     targetTransform: {fileID: 6506915555090380280}
   body: {fileID: 0}
   bellyInflater:
-    bounce: {fileID: 11400000, guid: 8bb8ec1eabdcb7043a4605858f604a8a, type: 2}
+    bounce: {fileID: 11400000, guid: 0fa241bb2419ce5499f221a811951358, type: 2}
     listeners:
     - rid: 5882124988304326676
   fatnessInflater:
-    bounce: {fileID: 11400000, guid: e18312d1b399ef44cbae03acd0a32afb, type: 2}
+    bounce: {fileID: 11400000, guid: 0fa241bb2419ce5499f221a811951358, type: 2}
     listeners:
     - rid: 2
   sizeInflater:
-    bounce: {fileID: 11400000, guid: e18312d1b399ef44cbae03acd0a32afb, type: 2}
+    bounce: {fileID: 11400000, guid: 0fa241bb2419ce5499f221a811951358, type: 2}
     listeners:
     - rid: 3
   boobsInflater:
-    bounce: {fileID: 11400000, guid: e18312d1b399ef44cbae03acd0a32afb, type: 2}
+    bounce: {fileID: 11400000, guid: 0fa241bb2419ce5499f221a811951358, type: 2}
     listeners:
     - rid: 4
     - rid: 5
