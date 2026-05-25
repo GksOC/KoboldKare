@@ -265,13 +265,10 @@ public class DickDescriptor : MonoBehaviour {
         attachedAnimator.enabled = true;
         foreach(DickSet set in dicks) {
             Vector3 scale = set.dickContainer.localScale;
-            scale.x = scale.x / 2f;
-            scale.y = scale.y / 2f;
-            scale.z = scale.z / 2f;
             set.descriptor = this;
             set.dickContainer.parent = k.GetAttachPointTransform(set.attachPoint);
             set.dickContainer.localScale = scale;
-            set.dickContainer.transform.localPosition = -set.attachPosition/2f;
+            set.dickContainer.transform.localPosition = -set.attachPosition;
             set.dickContainer.transform.localRotation = Quaternion.identity;
             foreach (var penset in k.penetratables) {
                 set.dick.AddIgnorePenetrable(penset.penetratable);

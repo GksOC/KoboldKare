@@ -256,15 +256,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingMaxVolume: 3.4028235e+38
   type: 0
-  OnChange:
-    m_PersistentCalls:
-      m_Calls: []
-  OnFilled:
-    m_PersistentCalls:
-      m_Calls: []
-  OnEmpty:
-    m_PersistentCalls:
-      m_Calls: []
   startingReagents: []
 --- !u!114 &1471898632796190605
 MonoBehaviour:

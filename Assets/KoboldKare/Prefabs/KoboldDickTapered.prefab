@@ -208,160 +208,13 @@ MonoBehaviour:
   - dickContainer: {fileID: 2277990634531112218}
     dick: {fileID: 7606286754834010797}
     ballSizeInflater:
-      bounceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0.25
-          inSlope: 2
-          outSlope: 2
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.20167542
-          value: 2.502484
-          inSlope: 0.45121813
-          outSlope: 0.45121813
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.4
-          value: 0.46640015
-          inSlope: -1.8744586
-          outSlope: -1.8744586
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.6033672
-          value: 1.791847
-          inSlope: 0.56383085
-          outSlope: 0.56383085
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.803418
-          value: 0.71360475
-          inSlope: -2.3585095
-          outSlope: -2.3585095
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      bounceDuration: 1
-      bounce: {fileID: 11400000, guid: 8bb8ec1eabdcb7043a4605858f604a8a, type: 2}
+      bounce: {fileID: 11400000, guid: 0fa241bb2419ce5499f221a811951358, type: 2}
       listeners: []
     dickSizeInflater:
-      bounceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0.25
-          inSlope: 2
-          outSlope: 2
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.20167542
-          value: 2.502484
-          inSlope: 0.45121813
-          outSlope: 0.45121813
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.4
-          value: 0.46640015
-          inSlope: -1.8744586
-          outSlope: -1.8744586
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.6033672
-          value: 1.791847
-          inSlope: 0.56383085
-          outSlope: 0.56383085
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.803418
-          value: 0.71360475
-          inSlope: -2.3585095
-          outSlope: -2.3585095
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      bounceDuration: 1
-      bounce: {fileID: 11400000, guid: 8bb8ec1eabdcb7043a4605858f604a8a, type: 2}
+      bounce: {fileID: 11400000, guid: 049836be855ee594e900eddfc3778e1f, type: 2}
       listeners:
       - rid: 5882124739971907587
     bonerInflater:
-      bounceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 4.6896434
-          outSlope: 4.6896434
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0.017189836
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      bounceDuration: 1
       bounce: {fileID: 11400000, guid: 049836be855ee594e900eddfc3778e1f, type: 2}
       listeners:
       - rid: 2
@@ -371,8 +224,7 @@ MonoBehaviour:
     attachPosition: {x: 0.000049315724, y: 0.89064485, z: -0.046338648}
     cumSoundPack: {fileID: 11400000, guid: 6a026e8e8fe32d948a722fccae91b39a, type: 2}
     descriptor: {fileID: 0}
-    parent: 0
-    parentTransform: {fileID: 0}
+    shouldDisableVagina: 1
   references:
     version: 2
     RefIds:
@@ -403,11 +255,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d76f24409a39604ca3986f91ce6d28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interpolate: 1
+  jiggleUpdateMode: 0
+  <blend>k__BackingField: 1
   jiggleRigs:
   - rootTransform: {fileID: 6863006943197425550}
     jiggleSettings: {fileID: 11400000, guid: d081ebe3eba24584dbb41d9ebe1c8116, type: 2}
     ignoredTransforms: []
+    colliders: []
+    animated: 0
   wind: {x: 0, y: 0, z: 0}
   debugDraw: 0
 --- !u!1 &1616034075611664451
@@ -647,7 +502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localRootForward: {x: 0, y: 1, z: 0}
-  localRootUp: {x: -0, y: -0, z: -1}
+  localRootUp: {x: 0, y: 0, z: -1}
   localRootRight: {x: 1, y: 0, z: 0}
   rootBone: {fileID: 445928784052510322}
   targetRenderers:

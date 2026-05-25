@@ -354,18 +354,18 @@ public class Kobold : GeneHolder, IGrabbable, IPunObservable, IPunInstantiateMag
                     inflatableDick.SetDickThickness(newGenes.dickThickness);
                 }
             }
-            dickSet.dickSizeInflater.SetSize(0.5f+Mathf.Log(1f + newGenes.dickSize / 20f, 2f), dickSet.descriptor);
-            dickSet.ballSizeInflater.SetSize(0.5f+Mathf.Log(1f + newGenes.ballSize / 20f, 2f), dickSet.descriptor);
+            dickSet.dickSizeInflater.SetSize(0.15f + 1.5f * Mathf.Log(1f + newGenes.dickSize / 40f, 4f), dickSet.descriptor);
+            dickSet.ballSizeInflater.SetSize(0.1f + 1.5f * Mathf.Log(1f + newGenes.ballSize / 40f, 4f), dickSet.descriptor);
         }
         grabber.SetMaxGrabCount(newGenes.grabCount);
         if (ragdoller.ragdolled) {
-            sizeInflater.SetSizeInstant(Mathf.Max(Mathf.Log(1f + newGenes.baseSize / 20f, 2f), 0.2f));
+            sizeInflater.SetSizeInstant(0.2f + 1.5f * Mathf.Log(1f + newGenes.baseSize / 20f, 4f));
         } else {
-            sizeInflater.SetSize(Mathf.Max(Mathf.Log(1f + newGenes.baseSize / 20f, 2f), 0.2f), this);
+            sizeInflater.SetSize(0.2f + 1.5f * Mathf.Log(1f + newGenes.baseSize / 20f, 4f), this);
         }
 
         fatnessInflater.SetSize(Mathf.Log(1f + newGenes.fatSize / 20f, 2f), this);
-        boobsInflater.SetSize(Mathf.Log(1f + newGenes.breastSize / 20f, 2f), this);
+        boobsInflater.SetSize(1.5f * Mathf.Log(1f + newGenes.breastSize / 20f, 4f), this);
         bellyContainer.maxVolume = newGenes.bellySize;
         metabolizedContents.SetMaxVolume(newGenes.metabolizeCapacitySize);
         Vector4 hbcs = new Vector4(newGenes.hue/255f, newGenes.brightness/255f, 0.5f, newGenes.saturation/255f);
@@ -608,7 +608,7 @@ public class Kobold : GeneHolder, IGrabbable, IPunObservable, IPunInstantiateMag
         gargleSource.enabled = false;
     }
     private void OnBellyContentsChanged(ReagentContents contents, GenericReagentContainer.InjectType injectType) {
-        bellyInflater.SetSize(Mathf.Log(1f + contents.volume / 80f, 2f), this);
+        bellyInflater.SetSize(Mathf.Log(1f + contents.volume / 80f, 4f), this);
         if (injectType != GenericReagentContainer.InjectType.Spray || bellyContainer.volume >= bellyContainer.maxVolume*0.99f) {
             return;
         }
